@@ -1,0 +1,132 @@
+# https://chat.openai.com/share/116eac42-1663-48b4-b470-c5d59faab080
+
+questions:
+  - category: Lifestyle and Activity Level
+    questions:
+      - question: "How active are you on a daily basis?"
+        answers:
+          - "Very active (exercise or outdoor activities daily)"
+          - "Moderately active (regular walks, occasional exercise)"
+          - "Not very active (mostly indoor activities)"
+      - question: "Do you prefer outdoor activities or staying indoors?"
+        answers:
+          - "Prefer outdoor activities"
+          - "Prefer staying indoors"
+          - "Enjoy both equally"
+
+  - category: Living Space
+    questions:
+      - question: "Do you live in a house or an apartment?"
+        answers:
+          - "House"
+          - "Apartment"
+          - "Other"
+      - question: "Do you have a yard, and if so, how big is it?"
+        answers:
+          - "Large yard"
+          - "Small yard"
+          - "No yard"
+
+  - category: Experience with Pets
+    questions:
+      - question: "Have you ever owned a pet before? If so, what kind?"
+        answers:
+          - "Yes, dogs"
+          - "Yes, cats"
+          - "Yes, other pets"
+          - "No"
+      - question: "How comfortable are you with pet training and care?"
+        answers:
+          - "Very comfortable"
+          - "Somewhat comfortable"
+          - "Not comfortable"
+
+  - category: Time at Home
+    questions:
+      - question: "How many hours per day will the pet be alone?"
+        answers:
+          - "Less than 4 hours"
+          - "4 to 8 hours"
+          - "More than 8 hours"
+      - question: "Do you travel frequently?"
+        answers:
+          - "Yes"
+          - "Occasionally"
+          - "No"
+
+  - category: Family and Household
+    questions:
+      - question: "Are there children or elderly individuals in your home?"
+        answers:
+          - "Yes, children"
+          - "Yes, elderly individuals"
+          - "Both"
+          - "No"
+      - question: "Does anyone in your household have allergies to animals?"
+        answers:
+          - "Yes"
+          - "No"
+          - "Not sure"
+
+  - category: Pet Characteristics and Preferences
+    questions:
+      - question: "Are you looking for a pet with a specific size, energy level, or temperament?"
+        answers:
+          - "Yes, specific size"
+          - "Yes, specific energy level"
+          - "Yes, specific temperament"
+          - "No specific preference"
+      - question: "Do you have a preference for a certain breed or type of pet?"
+        answers:
+          - "Yes, specific breed/type"
+          - "No, open to suggestions"
+
+  - category: Reason for Getting a Pet
+    questions:
+      - question: "What are your main reasons for wanting a pet?"
+        answers:
+          - "Companionship"
+          - "Exercise partner"
+          - "Family pet"
+          - "Protection"
+          - "Service or assistance"
+      - question: "Are you looking for a companion, a pet for protection, or perhaps a service animal?"
+        answers:
+          - "Companion"
+          - "Protection"
+          - "Service animal"
+          - "Other"
+
+  - category: Budget and Expenses
+    questions:
+      - question: "Are you prepared for the financial responsibilities of pet ownership, including vet visits, food, and grooming?"
+        answers:
+          - "Yes"
+          - "Somewhat"
+          - "No"
+      - question: "Do you have a budget for upfront adoption or purchase costs?"
+        answers:
+          - "Yes, I have a specific budget"
+          - "No specific budget, but have financial limits"
+          - "No budget constraints"
+
+  - category: Long-Term Commitment
+    questions:
+      - question: "Are you ready for a long-term commitment? Some pets can live for many years."
+        answers:
+          - "Yes"
+          - "Unsure"
+          - "No"
+      - question: "How will you ensure the pet is cared for if your living situation changes?"
+        answers:
+          - "Family/friends can help"
+          - "Can make necessary adjustments"
+          - "Have not considered this yet"
+
+  - category: Specific Needs and Wishes
+    questions:
+      - question: "Do you have any specific needs or wishes, such as a hypoallergenic breed or a pet good with other animals?"
+        answers:
+          - "Yes, hypoallergenic"
+          - "Yes, good with other animals"
+          - "No specific needs"

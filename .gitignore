@@ -1,0 +1,10 @@
+__pycache__
+__pycache__
+steps/__pycache__
+ollama/
+__pycache__/
+__pycache__
+ollama
+test_cache.json
+steps/step0_setup_original.py
+.venv
