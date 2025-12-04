@@ -14,9 +14,6 @@ Cliquer ce lien [pour commencer avecs les outils IA](resources/AI_TOOLS_BASICS.m
 
 ---
 
-
-
-
 ## 📋 Vue d'Ensemble
 
 | Step | Objectif | Points | Difficulté |

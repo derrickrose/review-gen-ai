@@ -99,10 +99,10 @@ Modèle local :
 
 **Exemple** :
 ```
-Question: "Who wrote Les Misérables?"
+Question : "Who wrote Les Misérables?"
 
-GPT-4: "Victor Hugo wrote Les Misérables in 1862"
-TinyLlama: "Les Misérables was written by Alexandre Dumas in 1850" ❌
+GPT-4 : "Victor Hugo wrote Les Misérables in 1862"
+TinyLlama : "Les Misérables was written by Alexandre Dumas in 1850" ❌
 ```
 
 #### Compréhension contextuelle
@@ -121,8 +121,8 @@ TinyLlama: "Les Misérables was written by Alexandre Dumas in 1850" ❌
 ```
 Text: "This bug that crashes the app is really great..." (irony)
 
-GPT-4: Understands it's negative despite "great"
-TinyLlama: Thinks it's positive because of "great" ❌
+GPT-4 : Understands it's negative despite "great"
+TinyLlama : Thinks it's positive because of "great" ❌
 ```
 
 #### Capacité de raisonnement
@@ -139,11 +139,11 @@ TinyLlama: Thinks it's positive because of "great" ❌
 
 **Exemple** :
 ```
-Question: "I have 3 apples, I eat 1, my brother gives me 2, 
+Question : "I have 3 apples, I eat 1, my brother gives me 2, 
           then I give half to my sister. How many do I have?"
 
-GPT-4: "3 - 1 + 2 = 4, then 4 / 2 = 2 apples" ✅
-TinyLlama: "You have 5 apples" ❌ (gets lost in the steps)
+GPT-4 : "3 - 1 + 2 = 4, then 4 / 2 = 2 apples" ✅
+TinyLlama : "You have 5 apples" ❌ (gets lost in the steps)
 ```
 
 ---
@@ -161,16 +161,16 @@ TinyLlama: "You have 5 apples" ❌ (gets lost in the steps)
 
 **Exemple concret** :
 ```
-You:
+Toi:
     Who played ant man. Answer with just a name.
     Answer like: Danny DeVitto
 
-tinyllama will respond:
+tinyllama va répondre:
     Danny DeVitto is the actor who has played Ant-Man in two movie 
     adaptations, "Ant-Man" (2015) and "Ant-Man and the Wasp" (2018), 
     directed by Edgar Wright.
 
-ChatGPT will respond:
+ChatGPT va répondre:
     Paul Rudd
 ```
 
@@ -183,13 +183,13 @@ ChatGPT will respond:
 
 **Autre exemple** :
 ```
-You:
+Toi:
     What is the capital of Australia?
 
-tinyllama will respond:
+tinyllama va répondre:
     The capital of Australia is Sydney.
 
-ChatGPT will respond:
+ChatGPT va répondre:
     The capital of Australia is Canberra.
 ```
 
@@ -219,17 +219,17 @@ response = ai.openai("Was Napoleon born in 1769? Answer yes or no.", temperature
 
 **Exemple** :
 ```
-You:
+Toi:
     Tell 3 small facts about France, answer in json.
 
-Tinyllama will respond:
+Tinyllama va répondre:
     Here are three facts about France:
 
     Fact 1: The French flag is a tricolor: Red, white, and blue.
     Fact 2: French cuisine is famous for its bread baked in stone ovens.
     Fact 3: France has some of the most beautiful castles in Europe.
 
-ChatGPT will respond:
+ChatGPT va répondre:
     {
         "Fact1": "France is the largest country in Europe by area.",
         "Fact2": "The Eiffel Tower was built for the 1889 World's Fair.",
@@ -300,16 +300,16 @@ Les petits modèles inventent des "faits" qui sonnent plausibles.
 
 **Exemple** :
 ```
-You:
+Toi:
     What is the Heisenberg Uncertainty Principle?
 
-tinyllama will respond:
+tinyllama va répondre:
     The Heisenberg Uncertainty Principle states that the position and 
     velocity of a particle cannot both be measured with absolute precision 
     at the same time. This is because measuring one property disturbs the 
     other, making it impossible to know both exactly.
 
-ChatGPT will respond:
+ChatGPT va répondre:
     The Heisenberg Uncertainty Principle states that the position and 
     momentum (not velocity) of a particle cannot be simultaneously measured 
     with arbitrary precision. The more precisely one property is measured, 
