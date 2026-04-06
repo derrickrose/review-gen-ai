@@ -4,6 +4,7 @@ Guide des concepts fondamentaux pour travailler avec les LLM et outils IA.
 
 ---
 
+
 ## 🤖 LLM : Cloud vs Local
 
 ### Pourquoi utiliser des modèles locaux (Ollama) ?
